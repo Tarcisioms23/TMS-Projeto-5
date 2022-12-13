@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "452dd3c9-7222-4a4a-aaac-23e3792eaf1a",
+		"name": "projeto_5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "headers_1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "clienId",
+						"value": "abc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8091/projeto_5/headers_1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"projeto_5",
+						"headers_1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "headers_2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "clientId",
+						"value": "12151",
+						"type": "text"
+					},
+					{
+						"key": "clienId2",
+						"value": "678",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8091/projeto_5/headers_2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"projeto_5",
+						"headers_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
